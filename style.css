@@ -34,13 +34,24 @@ h3 {
 border-radius: 30px;
     border: solid 1px red;
 }
+.holder {
+    display: flex;
+}
 @media all and (max-width: 500px) {
+  h3 {
+    font-size: 10px;
+  }
   #guess {
     width:80px;
     font-size: 10px;
     padding: 5px;
   }
-}
-.holder {
+  .holder {
     display: flex;
+    flex-direction: column;
+}
+  #btn {
+       font-size: 20px;
+       
+}
 }
